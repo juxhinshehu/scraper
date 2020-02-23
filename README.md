@@ -9,6 +9,9 @@ you may need to execute: composer dump-autoload
 configure variables in .env . especially DB_DATABASE
 DB_USERNAME, DB_PASSWORD
 
+Configure your DB_DATABASE (the database name) on phpunit.xml and DB_CONNECTION if you
+are using something different than mysql
+
 php artisan config:cache
 
 
